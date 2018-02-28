@@ -1,0 +1,178 @@
+body {
+  margin: 0;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  font-family: "Bodoni 72";
+  font-size: 25px;
+}
+
+h1 {
+  font-family: "Bodoni 72 Smallcaps";
+  font-size: 70px;
+  font-weight: 300;
+  clear: both;
+}
+
+h3{
+  margin-top: 0;
+  margin-bottom: 10vh;
+  font-size: 30px;
+  font-weight: 300;
+}
+
+h4{
+  font-family: "Bodoni 72 Smallcaps";
+  font-size: 30px;
+  font-weight: 300;
+  margin-bottom: 3vh;
+  margin-top: 0;
+}
+table {
+  text-align: left;
+}
+
+.background {
+  min-height: 94vh;
+  text-align: center;
+  position: relative;
+  bottom: 0;
+  top: 0;
+  padding-left: 5vw;
+  padding-right: 5vw;
+  padding-bottom: 8vh;
+  width: 100vw;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.black {
+  background-color:black;
+  color: white;
+}
+
+.white{
+  background-color:white;
+  color: black;
+}
+
+.center{
+  text-align: center;
+  display: inline-block;
+  width: 80%;
+  /*BOOTSTRAP THIS*/
+}
+
+button {
+  width: 30vw;
+  font-family: "Bodoni 72";
+  font-size: 25px;
+  font-weight: 300;
+  /*BOOTSTRAP THIS*/
+  /*ROUND IT*/
+}
+
+input[type="text"] {
+  width: 80%; 
+  color: black;
+}
+
+input[type="submit"] {
+  color: white;
+}
+
+textarea {
+  width: 80%; 
+  color: black;
+}
+
+.triangle {
+  width: 0; 
+  height: 0;
+  position: absolute;
+  bottom: 0; 
+}
+
+.left-white{
+  border-right: 50vw solid transparent;
+  border-bottom: 6vh solid white;
+  left:0;
+}
+
+.right-white{
+  border-left: 50vw solid transparent;
+  border-bottom: 6vh solid white;
+  right:0;
+}
+
+.left-black{
+  border-right: 50vw solid transparent;
+  border-bottom: 6vh solid black;
+  left:0;
+}
+
+.right-black{
+  border-left: 50vw solid transparent;
+  border-bottom: 6vh solid black;
+  right:0;
+}
+
+.column-left {
+  width: 50vh;
+  padding: 5vh;
+  border:grey;
+  float:left;
+}
+
+.column-right {
+  width: 50vh;
+  padding: 5vh;
+  float:right;
+  border:grey;
+}
+
+.carousel li{
+  position: relative;
+  top: 3vh;
+}
+
+.candidateCarousel li {
+  border: 1px solid black;
+}
+
+.candidateCarousel .active {
+  background-color: black;
+}
+
+.header {
+  width: 95vw; 
+  color:white; 
+  z-index: 99; 
+  padding-right: 2vw;
+  padding-top: 2vh;
+}
+
+.black a {
+  font-weight: 300;
+  color: white;
+  text-shadow:
+    #000 0px 0px 1px, #000 0px 0px 1px, #000 0px 0px 1px, 
+    #000 0px 0px 1px, #000 0px 0px 1px, #000 0px 0px 1px, 
+    #000 0px 0px 1px, #000 0px 0px 1px, #000 0px 0px 1px;
+}
+
+.white a {
+  font-weight: 300;
+  color: black;
+}
+
+#landing {
+  background-image: url("background.png");
+  background-position: center;
+  overflow-y: auto;
+  overflow-x: hidden;
+  min-height: 100vh;
+}
+
+#last {
+  min-height: 100vh;
+}

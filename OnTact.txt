@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>OnTact</title>
+  <script src="https://code.jquery.com/jquery-3.1.1.js"></script>
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="onTactStatic.css"></link>
+</head>
+
+<body>
+  <div class="black background" id="landing" style="height:100vh">
+    <div class="header">
+      <a href='#' style="float: right; padding-left: 1vw; padding-right: 1vw">Login</a>
+      <a href='#contact' style="float: right; padding-left: 1vw; padding-right: 1vw">Contact</a>
+      <a href='#candidates' style="float: right; padding-left: 1vw; padding-right: 1vw">Candidates</a>
+      <a href='#recruiters' style="float: right; padding-left: 1vw; padding-right: 1vw">Recruiters</a>
+      <a href='#about' style="float: right; padding-left: 1vw; padding-right: 1vw">About</a>
+    </div>
+    <div class="center">
+      <h1><br/>Goodbye Paper Resume,<br/>
+        Hello OnTact</h1>
+      <h3 style="margin-top: 5vh; margin-bottom: 5vh">Digitize Your Recruiting Experience</h3>
+      <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+        <button class="black" style="display: inline-block">Find Out Why</button>
+      </div>
+      <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+        <button class="black">Log In </button>
+      </div>
+    </div>
+    <div class="left-white triangle"></div>
+    <div class="right-white triangle"></div>
+  </div>
+  <div class="white background">
+    <a name="about"></a>
+    <div class="header">
+      <a href='#' style="float: right; padding-left: 1vw; padding-right: 1vw">Login</a>
+      <a href='#contact' style="float: right; padding-left: 1vw; padding-right: 1vw">Contact</a>
+      <a href='#candidates' style="float: right; padding-left: 1vw; padding-right: 1vw">Candidates</a>
+      <a href='#recruiters' style="float: right; padding-left: 1vw; padding-right: 1vw">Recruiters</a>
+      <a href='#about' style="float: right; padding-left: 1vw; padding-right: 1vw">About</a>
+    </div>
+    <h1>Tailored to Suit Both Needs</h1>
+    <h3>This is what they call “Two Birds with One Stone”</h3>
+    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12" style="float:left; border-right: 1px solid lightGrey">
+      <h4>Recruiters</h4>
+      <div class="row">
+        <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2" style="text-align: right"><img src="https://png.icons8.com/open-filled/ios7/25" title="Open Filled" width="80%"></div>
+        <div class="col-lg-10 col-md-10 col-sm-10 col-xs-10" style="text-align: left"><p>No more stacks of resumes. <br/>
+          Have all your candidates in one spot.</p></div>
+      </div>
+      <div class="row">
+        <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2" style="text-align: right"><img src="https://png.icons8.com/open-filled/ios7/25" title="Open Filled" width="80%"></div>
+        <div class="col-lg-10 col-md-10 col-sm-10 col-xs-10" style="text-align: left"><p>No more losing resumes. <br/>
+          Retain profiles of everyone you meet.</p></div>
+      </div>
+      <div class="row">
+        <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2" style="text-align: right"><img src="https://png.icons8.com/open-filled/ios7/25" title="Open Filled" width="80%"></div>
+        <div class="col-lg-10 col-md-10 col-sm-10 col-xs-10" style="text-align: left"><p>No more endless scrolling. <br/>
+          Search candidates that meet your need.</p></div>
+      </div>
+    </div>
+    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12" style="float:left">
+      <h4>Candidates</h4>
+      <div class="row">
+        <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2" style="text-align: right"><img src="https://png.icons8.com/open-filled/ios7/25" title="Open Filled" width="80%"></div>
+        <div class="col-lg-10 col-md-10 col-sm-10 col-xs-10" style="text-align: left"><p>No more printing resumes again over mistakes. <br/>
+          Simply change it on your OnTact.</p></div>
+      </div>
+      <div class="row">
+        <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2" style="text-align: right"><img src="https://png.icons8.com/open-filled/ios7/25" title="Open Filled" width="80%"></div>
+        <div class="col-lg-10 col-md-10 col-sm-10 col-xs-10" style="text-align: left"><p>No more typing out your experiences. <br/>
+          Spend more time talking and connecting.</p></div>
+      </div>
+      <div class="row">
+        <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2" style="text-align: right"><img src="https://png.icons8.com/open-filled/ios7/25" title="Open Filled" width="80%"></div>
+        <div class="col-lg-10 col-md-10 col-sm-10 col-xs-10" style="text-align: left"><p>No paper handling. <br/>
+          Unlimited copies of your resume in your palm.</p></div>
+      </div>
+    </div>
+    <div class="left-black triangle"></div>
+    <div class="right-black triangle"></div>
+  </div>
+  <div class="black background">
+    <a name="recruiters"></a>
+    <div class="header">
+      <a href='#' style="float: right; padding-left: 1vw; padding-right: 1vw">Login</a>
+      <a href='#contact' style="float: right; padding-left: 1vw; padding-right: 1vw">Contact</a>
+      <a href='#candidates' style="float: right; padding-left: 1vw; padding-right: 1vw">Candidates</a>
+      <a href='#recruiters' style="float: right; padding-left: 1vw; padding-right: 1vw">Recruiters</a>
+      <a href='#about' style="float: right; padding-left: 1vw; padding-right: 1vw">About</a>
+    </div>
+    <h1 style="display: inline-block">Technology Equals Efficiency</h1>
+    <h3>Manually entering candidates from resumes is old-style.</h3>
+    <div id="recruiterCarousel" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#recruiterCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#recruiterCarousel" data-slide-to="1"></li>
+        <li data-target="#recruiterCarousel" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner" role="listbox">
+        <div class="item active">
+          <table>
+            <tr>
+              <td class="col-lg-6 col-md-6 col-sm-6 col-xs-12" style="overflow: hidden; padding: 5vw; text-align: center">
+                <img src="https://www.w3schools.com/w3images/fjords.jpg" style="max-height:40vh; max-width: 100%"/>
+              </td>    
+              <td class="col-lg-6 col-md-6 col-sm-6 col-xs-12" style="overflow: hidden; height: 50vh">
+                <h4 style="text-align: right">See All Your Candidates <br/>In One Place</h4>
+                <p style="text-align: left">Our desktop portal organizes all your recruiting events by date. See everyone you interacted with via OnTact and query them to your criteria.</p>
+              </td>
+            </tr>
+          </table>
+        </div>
+        <div class="item">
+          <table>
+            <tr>
+              <td class="col-lg-6 col-md-6 col-sm-6 col-xs-12" style="overflow: hidden; padding: 5vw; text-align: center">
+                <img src="https://www.w3schools.com/w3images/fjords.jpg" style="max-height:40vh; max-width: 100%"/>
+              </td>    
+              <td class="col-lg-6 col-md-6 col-sm-6 col-xs-12" style="overflow: hidden; height: 50vh">
+                <h4 style="text-align: right">Have Their Resume <br/>In Your Palm</h4>
+                <p style="text-align: left">Scan their QR code and see a summary of their resume. Spend less time reading through their resume, and take notes and add tags while you converse.</p>
+              </td>
+            </tr>
+          </table>
+        </div>
+        <div class="item">
+          <table>
+            <tr>
+              <td class="col-lg-6 col-md-6 col-sm-6 col-xs-12" style="overflow: hidden; padding: 5vw; text-align: center">
+                <img src="https://www.w3schools.com/w3images/fjords.jpg" style="max-height:40vh; max-width: 100%"/>
+              </td>    
+              <td class="col-lg-6 col-md-6 col-sm-6 col-xs-12" style="overflow: hidden; height: 50vh">
+                <h4 style="text-align: right">Simply Export <br/>CSVs and PDFs</h4>
+                <p style="text-align: left">Once you've got the list that you want, simply export the list as CSVs or retrieve PDF versions of their resume from our portal.</p>
+              </td>
+            </tr>
+          </table>
+        </div>
+      </div>
+      <a class="left carousel-control" href="#recruiterCarousel" role="button" data-slide="prev" style="background: none; margin-left: -9vw">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#recruiterCarousel" role="button" data-slide="next" style="background: none; margin-right: -6vw">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+    <div class="left-white triangle"></div>
+    <div class="right-white triangle"></div>
+  </div>
+  <div class="white background">
+    <a name="candidates"></a>
+    <div class="header">
+      <a href='#' style="float: right; padding-left: 1vw; padding-right: 1vw">Login</a>
+      <a href='#contact' style="float: right; padding-left: 1vw; padding-right: 1vw">Contact</a>
+      <a href='#candidates' style="float: right; padding-left: 1vw; padding-right: 1vw">Candidates</a>
+      <a href='#recruiters' style="float: right; padding-left: 1vw; padding-right: 1vw">Recruiters</a>
+      <a href='#about' style="float: right; padding-left: 1vw; padding-right: 1vw">About</a>
+    </div>
+    <h1>Personalize Yourself</h1>
+    <h3>A piece of paper doesn't describe you.</h3>
+    <div id="candidateCarousel" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators candidateCarousel">
+        <li data-target="#candidateCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#candidateCarousel" data-slide-to="1" class="candidateCarousel"></li>
+        <li data-target="#candidateCarousel" data-slide-to="2" class="candidateCarousel"></li>
+      </ol>
+      <div class="carousel-inner" role="listbox">
+        <div class="item active">
+          <table>
+            <tr>
+              <td class="col-lg-6 col-md-6 col-sm-6 col-xs-12" style="overflow: hidden; padding: 5vw; text-align: center">
+                <img src="https://www.w3schools.com/w3images/fjords.jpg" style="max-height:40vh; max-width: 100%"/>
+              </td>    
+              <td class="col-lg-6 col-md-6 col-sm-6 col-xs-12" style="overflow: hidden; height: 50vh">
+                <h4 style="text-align: right">Don't Wait In Line <br/>To Print</h4>
+                <p style="text-align: left">Simply present your QR code for recruiters to scan. They'll see your profile right away. Spend more time talking, less time waiting.</p>
+              </td>
+            </tr>
+          </table>
+        </div>
+        <div class="item">
+          <table>
+            <tr>
+              <td class="col-lg-6 col-md-6 col-sm-6 col-xs-12" style="overflow: hidden; padding: 5vw; text-align: center">
+                <img src="https://www.w3schools.com/w3images/fjords.jpg" style="max-height:40vh; max-width: 100%"/>
+              </td>    
+              <td class="col-lg-6 col-md-6 col-sm-6 col-xs-12" style="overflow: hidden; height: 50vh">
+                <h4 style="text-align: right">Simply Create Your Profile</h4>
+                <p style="text-align: left">Put the important information on our profile. Have the recruiters listen to you, not read about you.</p>
+              </td>
+            </tr>
+          </table>
+        </div>
+        <div class="item">
+          <table>
+            <tr>
+              <td class="col-lg-6 col-md-6 col-sm-6 col-xs-12" style="overflow: hidden; padding: 5vw; text-align: center">
+                <img src="https://www.w3schools.com/w3images/fjords.jpg" style="max-height:40vh; max-width: 100%"/>
+              </td>    
+              <td class="col-lg-6 col-md-6 col-sm-6 col-xs-12" style="overflow: hidden; height: 50vh">
+                <h4 style="text-align: right">Be Sure The Recruiter <br/>Knows You</h4>
+                <p style="text-align: left">Whenever recruiters scan your QR code, your information is in their database. You can also see their information and contact them based on the information they provided.</p>
+              </td>
+            </tr>
+          </table>
+        </div>
+      </div>
+      <a class="left carousel-control" href="#candidateCarousel" role="button" data-slide="prev" style="background: none; margin-left: -9vw; color: black">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#candidateCarousel" role="button" data-slide="next" style="background: none; margin-right: -6vw; color: black">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+    <div class="left-black triangle"></div>
+    <div class="right-black triangle"></div>
+  </div>
+  <div class="black background" id="last">
+    <a name="contact"></a>
+    <div class="header">
+      <a href='#' style="float: right; padding-left: 1vw; padding-right: 1vw">Login</a>
+      <a href='#contact' style="float: right; padding-left: 1vw; padding-right: 1vw">Contact</a>
+      <a href='#candidates' style="float: right; padding-left: 1vw; padding-right: 1vw">Candidates</a>
+      <a href='#recruiters' style="float: right; padding-left: 1vw; padding-right: 1vw">Recruiters</a>
+      <a href='#about' style="float: right; padding-left: 1vw; padding-right: 1vw">About</a>
+    </div>
+    <h1>Contact Us</h1>
+    <h3 style="margin-bottom: 0">We would love to hear your feedback!</h3>
+    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12" style="float:right">
+      <table style="width:100%">
+        <tr style="width:100%">
+          <td style="width:100%; height: 60vh; text-align: center"><h3>hello@ontact.co</h3></td>
+        </tr>
+      </table>
+    </div>
+    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12" style="text-align: left; float: left">
+      <form>
+          <h4 style="margin-bottom: 0">Name:</h4>
+          <input type="text" style="width: 80%; color: black"></input>
+          <h4 style="margin-bottom: 0">E-mail:</h4>
+          <input type="text" style="width: 80%"></input>
+          <h4 style="margin-bottom: 0">Subject:</h4>
+          <input type="text" style="width: 80%"></input>
+          <h4 style="margin-bottom: 0">Text:</h4>
+          <textarea style="width:80%"></textarea><br/>
+          <input type="submit" class="black"></input>
+      </form>
+    </div>
+  </div>
+  <script>
+  $(document).ready(function() {
+    $('.carousel').carousel('cycle');
+  });
+  </script>
+</body>
+
+</html>
