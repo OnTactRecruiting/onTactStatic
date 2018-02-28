@@ -921,6 +921,17 @@ candidates
 #candidateCarousel .carousel-indicators .active{
     background-color: black;
 }
+/* ==========================================================================
+contact
+========================================================================== */
+
+
+#contact h1 {
+    margin-top: 7vh;
+    font-size: 40px;
+    text-align: center;
+    color: #fff;
+}
 
 /* ==========================================================================
 Features
