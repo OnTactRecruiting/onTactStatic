@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="386px" height="242px" viewBox="0 0 386 242" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.1 (47250) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 21</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="386" height="242"></rect>
+    </defs>
+    <g id="Desktop" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-1128.000000, -1581.000000)">
+        <g id="Recruiters" transform="translate(0.000000, 1280.000000)">
+            <g id="1st-Carousel---2" transform="translate(1024.000000, 1.000000)">
+                <g id="Group-25" transform="translate(28.000000, 127.000000)">
+                    <g id="Group-24" transform="translate(0.000000, 165.000000)">
+                        <g id="Group-22" transform="translate(76.000000, 0.000000)">
+                            <g id="Group-21" transform="translate(0.000000, 8.000000)">
+                                <g id="Rectangle-15">
+                                    <use fill="#D8D8D8" fill-rule="evenodd" xlink:href="#path-1"></use>
+                                    <rect stroke="#979797" stroke-width="1" x="0.5" y="0.5" width="385" height="241"></rect>
+                                </g>
+                                <text id="Coming-soon!" font-family="BodoniSvtyTwoITCTT-Book, Bodoni 72" font-size="25" font-weight="normal" letter-spacing="0.6944444" fill="#000000">
+                                    <tspan x="121.383334" y="129">Coming soon!</tspan>
+                                </text>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
